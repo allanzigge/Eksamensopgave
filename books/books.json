@@ -1,0 +1,17 @@
+[
+  {
+    "isbn": "1",
+    "title": "Title",
+    "edition": "1",
+    "authors": "Me",
+    "publicationDate": "Today",
+    "purchaseDate": "Yesterday",
+    "originalPrice": "1",
+    "price": "2",
+    "imagePath": "http://localhost:3001/images/bluej.jpg",
+    "language": "Enger",
+    "condition": "Mint",
+    "ownerId": "user3762035",
+    "id": "book1232767"
+  }
+]

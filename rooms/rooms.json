@@ -1,0 +1,13 @@
+[
+  {
+    "id": "1351341",
+    "name": "Aud 1",
+    "address": "Somewhere",
+    "floor": "0",
+    "number": "1",
+    "people": "9001",
+    "gear": ["projector", "microphone"],
+    "bookings": [],
+    "userRights": ["staff"]
+  } 
+]
