@@ -37,39 +37,7 @@ app.post("/upload", (request, response) => {
 
 // vJERES KODE HERv
 
-app.get("/book", async (request, response) => {
-    response.send({body: JSON.stringify(await books.getAll())})
-})
 
-app.post("/book", async (request, response) => {
-    console.log(request.body)
-    books.add(request.body)
-    response.sendStatus(200)
-})
-
-app.post("/user", async (request, response) => {
-    console.log(request.body)
-    const user = await users.add(request.body)
-    response.send({
-        status: 200,
-        body: JSON.stringify(user)
-    })
-})
-
-app.get("/room", async (request, response) => {
-    console.log(request.body)
-    const roomsList = await rooms.getAll()
-    response.send({
-        status: 200,
-        body: JSON.stringify(roomsList)
-    })
-})
-
-app.post("/room/:id", async (request, response) => {
-    console.log(request.params)
-
-    bookings.add(request.body)
-})
 
 // ^JERES KODE HER^
 
